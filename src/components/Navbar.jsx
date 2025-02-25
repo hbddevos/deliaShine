@@ -4,17 +4,17 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="h-full bg-gray-100 rounded-xl">
-      <div className="container mx-auto relative md:px-0 px-4 md:my-10 bg-[#111111] dark:bg-white rounded-xl overflow-hidden">
+    <div className="h-full bg-transparent rounded-xl">
+      <div className="container mx-auto relative md:px-0 px-4 md:my-10 rounded-xl overflow-hidden">
         {/* Nav */}
-        <nav className="bg-[#111111] dark:bg-white shadow-lg w-full z-50">
+        <nav className="shadow-lg w-full z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               {/* Logo */}
               <div className="flex-shrink-0">
                 <a
                   href="#"
-                  className="lg:text-xl md:text-lg text-sm font-bold text-gray-700 capitalize"
+                  className="lg:text-xl md:text-lg text-base font-bold text-gray-700 capitalize"
                 >
                   {/* {"DShine".split("" ).map((char, index) => (
                     <span
@@ -31,30 +31,30 @@ export default function Navbar() {
 
               {/* Desktop Menu */}
               <div className="hidden md:flex space-x-8 text-gray-400 dark:text-gray-700">
-                <a href="#about" className="text-green-400 dark:text-green-600">
+                <a href="#about" className="hover:scale-105 transition-all text-green-400 dark:text-green-600">
                   Accueil
                 </a>
                 <a
                   href="#what-i-do"
-                  className="hover:text-green-400 dark:hover:text-green-600"
+                  className="hover:scale-105 transition-all hover:text-green-400 dark:hover:text-green-600"
                 >
                   Apropos
                 </a>
                 <a
                   href="#testimonials"
-                  className="hover:text-green-400 dark:hover:text-green-600"
+                  className="hover:scale-105 transition-all hover:text-green-400 dark:hover:text-green-600"
                 >
                   Produits
                 </a>
                 <a
                   href="#clients"
-                  className="hover:text-green-400 dark:hover:text-green-600"
+                  className="hover:scale-105 transition-all hover:text-green-400 dark:hover:text-green-600"
                 >
                   Gallerie
                 </a>
                 <a
                   href="#fun-facts"
-                  className="hover:text-green-400 dark:hover:text-green-600"
+                  className="hover:scale-105 transition-all hover:text-green-400 dark:hover:text-green-600"
                 >
                   Liens
                 </a>

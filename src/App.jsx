@@ -7,8 +7,9 @@ import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Why from "./components/Why";
 import Links from "./components/Links";
-import RippleCursor from "./section/RippleCursor.jsx";
+// import RippleCursor from "./section/RippleCursor.jsx";
 import FollowCursor from "./section/FollowCursor.jsx";
+// import Component from "./components/test.jsx";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Hero />
 
       <Why />
-
+      
       <Creator />
       <Products />
       <HowToUse />

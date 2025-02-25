@@ -1,10 +1,10 @@
-import React from 'react'
-import Accordion from './Accordion'
-import Venue from './Venue'
-import Carousel from './Carousel';
+
+// import Accordion from './Accordion'
+// import Venue from './Venue'
+// import Carousel from './Carousel';
 import ImageTabs from "./ImageTabs.jsx";
 
-const images = ['./images/afro4.jpg', './images/afro5.jpg'];
+// const images = ['./images/afro4.jpg', './images/afro5.jpg'];
 
 export default function HowToUse() {
     return (
@@ -21,7 +21,7 @@ export default function HowToUse() {
         //
         // </div>
         <section>
-            <h3 className="max-sm:text-2xl md:text-4xl lg:text-8xl font-bold px-4 mb-4">Comment l'utiliser ?</h3>
+            <h3 className=" max-md:text-5xl max-md:-tracking-widest lg:text-8xl font-bold px-4 max-md:mb-6 mb-4">Comment l&apos;utiliser ?</h3>
             <ImageTabs/>
         </section>
     )

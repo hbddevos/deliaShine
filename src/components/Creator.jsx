@@ -1,9 +1,10 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 
 export default function Creator() {
   return (
     <section className="relative flex flex-col md:flex-row 
     {/*bg-[url('./imgs/blob.gif')]*/}
+    max-sm:px-4
     bg-top
     bg-no-repeat
     justify-center items-center gap-y-8 flex-wrap md:gap-x-8 gap-x-4 mt-8">
